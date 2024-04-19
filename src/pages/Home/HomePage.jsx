@@ -1,13 +1,11 @@
-import PlaceItems from "../components/PlaceItems/PlaceItems";
-import TableItems from "../components/TableItems/TableItems";
-import Header from "../components/header&footer/Header";
+import PlaceItems from "../../components/PlaceItems/PlaceItems";
+import TableItems from "../../components/TableItems/TableItems";
 import styles from "./style.module.css";
 
 export default function Home() {
   return (
     <>
       <div>
-        <Header place={"Dashboard"} />
         <div className={styles.loremItem}>
           <PlaceItems lorem={"Diversidade dos Itens"} quantity={"2"} />
           <PlaceItems lorem={"Inventário total"} quantity={"2"} />

@@ -6,7 +6,14 @@ export default function Header({ place }) {
     <div>
       <nav className={styles.Header}>
         <h3>React Stock</h3>
-        <Link to={"/"}>Inicio</Link>
+        <div>
+          <Link id={styles.linkTo} to={"/"}>
+            Inicio
+          </Link>
+          <Link id={styles.linkTo} to={"/products"}>
+            Items
+          </Link>
+        </div>
       </nav>
       <h2 id={styles.homeTitle}>{place}</h2>
     </div>

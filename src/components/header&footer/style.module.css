@@ -7,3 +7,26 @@ h3 {
   margin: 18px 15px;
   font-weight: 100;
 }
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Header > div {
+  margin-right: 10px;
+}
+
+#linkTo {
+  margin-right: 10px;
+  color: #000;
+  border-radius: 5px;
+  padding: 5px 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+#linkTo:hover {
+  color: rgba(0, 0, 0, 0.5);
+  box-shadow: inset 10px -40px 5px -32px rgba(0, 0, 0, 0.3);
+}
