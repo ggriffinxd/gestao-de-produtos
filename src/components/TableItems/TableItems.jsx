@@ -1,3 +1,4 @@
+import SeeButton from "../SeeButton/SeeButtton";
 import styles from "./style.module.css";
 
 export default function TableItems({ col1, col2, col3 }) {
@@ -15,7 +16,9 @@ export default function TableItems({ col1, col2, col3 }) {
           <tr>
             <td>{col1}</td>
             <td>{col2}</td>
-            <td>{col3}</td>
+            <td>
+              <SeeButton />
+            </td>
           </tr>
         </tbody>
       </table>

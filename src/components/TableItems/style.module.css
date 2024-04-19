@@ -1,6 +1,5 @@
 .tableItem {
   width: 48%;
-
   margin: 30px 20px;
 }
 table {
@@ -12,7 +11,7 @@ table {
 thead {
   color: #fff;
   background-color: #424242;
-  box-shadow: 0px 0px 19px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.4);
   margin: 20px;
 }
 
@@ -21,4 +20,10 @@ tr {
   align-items: center;
   justify-content: space-between;
   padding: 20px 60px 20px 20px;
+}
+
+tbody > tr {
+  margin-top: 5px;
+  border-radius: 5px;
+  background-color: #dddddd;
 }
