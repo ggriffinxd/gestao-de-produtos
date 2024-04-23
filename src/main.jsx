@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HomePage from "./pages/Home/HomePage";
 import Product from "./pages/Product/Product";
+import FormItem from "./components/FormItem/FormItem";
 import RootLayout from "./pages/RootLayout";
 const router = createBrowserRouter([
   {
@@ -16,6 +17,14 @@ const router = createBrowserRouter([
       {
         path: "product",
         element: <Product />,
+      },
+      {
+        path: "product/create",
+        element: <FormItem />,
+      },
+      {
+        path: "product/edit",
+        element: <FormItem />,
       },
     ],
   },

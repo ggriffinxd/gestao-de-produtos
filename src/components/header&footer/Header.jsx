@@ -10,7 +10,7 @@ export default function Header({ place }) {
           <Link id={styles.linkTo} to={"/"}>
             Inicio
           </Link>
-          <Link id={styles.linkTo} to={"/products"}>
+          <Link id={styles.linkTo} to={"/product"}>
             Items
           </Link>
         </div>
